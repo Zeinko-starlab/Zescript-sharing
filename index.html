@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Discord</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            height: 100vh;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.5rem;
+        }
+
+        /* Button Section */
+        #button-section {
+            margin: 30px;
+        }
+
+        #join-button {
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            background: #ff5722;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        #join-button:hover {
+            background: #e64a19;
+            transform: scale(1.1);
+        }
+
+        /* Footer */
+        footer {
+            position: absolute;
+            bottom: 10px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Community!</h1>
+        <p>Click the button below to join our Discord server.</p>
+    </header>
+    <main>
+        <section id="button-section">
+            <button id="join-button">Join Discord</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Community Hub. All rights reserved.</p>
+    </footer>
+    <script>
+        // Button Click Event
+        document.getElementById("join-button").addEventListener("click", function() {
+            window.location.href = "https://discord.gg/2YwYaWYS4u";
+        });
+    </script>
+</body>
+</html>
